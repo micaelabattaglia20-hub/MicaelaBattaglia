@@ -1,0 +1,277 @@
+*{
+    margin: 0px;
+    padding: 0px
+ }
+
+.encabezado{
+display: flex;
+background: #e0d1b8;
+align-content: center;
+}
+
+.navbar{
+display: flex;  
+justify-content: center;
+align-items: center;
+background: #e0d1b8;
+}
+
+.body{
+background-color: antiquewhite;
+}
+ 
+
+
+.encabezado img{ 
+width: 100px;
+
+}
+
+.indexgrid{ 
+margin: 10px;
+padding: 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+
+.indexgrid  img{ 
+width: 300px;
+margin: 10px;
+}
+
+h1{ 
+font-size: 40px;
+color: rgb(63, 47, 2);
+text-align: center;
+margin: 30px;
+}   
+ 
+.portada1{ 
+display: flex;  
+justify-content: center;
+margin: 5px;
+padding: 5px;
+}
+
+
+
+.tituloPrincipal{ 
+color: rgb(63, 47, 2); 
+text-align: center;
+font-size: 40px;
+margin: 20px;
+}
+
+.listaproductos{
+display: flex;
+flex-wrap: wrap;
+
+justify-content: center;
+}
+
+.listaproductos img{
+    width: 80%;
+    height: 400px;
+}
+
+.card1{
+width: 500px;
+border: 2px solid black;
+text-align: center;
+margin: 5px;
+background: #e0d1b8;
+background: linear-gradient(90deg,rgba(224, 209, 184, 1) 0%, rgba(204, 140, 43, 1) 50%, rgba(79, 48, 6, 1) 100%);
+}
+
+
+.card2{ 
+width: 500px; 
+border: 2px solid black;
+text-align: center;
+margin: 10px;
+background: #e0d1b8;
+background: linear-gradient(90deg,rgba(224, 209, 184, 1) 0%, rgba(204, 140, 43, 1) 50%, rgba(79, 48, 6, 1) 100%);
+}
+
+.card3{
+width: 500px; 
+border: 2px solid black;
+text-align: center;
+margin: 10px;
+background: #e0d1b8;
+background: linear-gradient(90deg,rgba(224, 209, 184, 1) 0%, rgba(204, 140, 43, 1) 50%, rgba(79, 48, 6, 1) 100%);
+}
+
+.card4{
+width: 500px; 
+border: 2px solid black;
+text-align: center;
+margin: 10px;
+background: #e0d1b8;
+background: linear-gradient(90deg,rgba(224, 209, 184, 1) 0%, rgba(204, 140, 43, 1) 50%, rgba(79, 48, 6, 1) 100%);
+}
+
+.cardsindexpadre{
+display: flex;
+flex-direction: row;
+flex-wrap:wrap;
+justify-content: center;
+}
+
+.cardsindexpadre img{
+   width: 80%;
+   height: auto;
+}
+
+.cardindextitulo2{
+font-size: 40px;
+color: rgb(63, 47, 2);
+text-align: center;
+margin: 20px;
+padding: 20px;
+}
+
+.cardindex{
+border: 2px solid black;    
+text-align: center;
+padding: 20px;}
+
+.cardindex1{
+border: 2px solid black;    
+text-align: center;
+padding: 20px;
+margin: 10px;
+}
+
+.cardindex2{
+border: 2px solid black;    
+text-align: center;
+padding: 20px;
+margin: 10px;
+}
+
+.cardindex3{
+border: 2px solid black;    
+text-align: center;
+padding: 20px;
+margin: 10px;
+}
+
+.cardindex4{
+border: 2px solid black;    
+text-align: center;
+padding: 20px;
+margin: 10px;
+}
+
+
+h3{
+font-size: 25px;
+color: rgb(63, 47, 2);  
+text-align: center;
+margin: 30px;
+padding: 20px;
+}
+
+
+.producto1{ 
+background-color: rgba(224, 157, 201, 0.431);
+width: 30%; 
+border: 2px solid black;
+padding: 20px;
+text-align: center;
+}
+
+.producto2{ 
+background-color: rgba(230, 210, 223, 0.431);
+width: 30%;
+border: 2px solid black;
+padding: 20px;
+text-align: center;
+}
+
+
+.producto3{ 
+background-color: rgba(224, 157, 201, 0.431);
+width: 30%; 
+border: 2px solid black;
+padding: 10px;
+}
+
+
+.producto4{ 
+background-color: rgba(224, 157, 201, 0.431);
+width: 30%; 
+border: 2px solid black;
+padding: 20px;
+text-align: center;
+}
+
+
+
+
+.infotitle{ 
+text-align: center;
+margin: 20px;
+font-size: 25px;
+}
+
+.listacompras2{ 
+list-style: inside;
+text-align: left;
+margin: 20px;
+}
+
+
+.carousel-inner{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    background-color: rgb(146, 133, 111);
+    height: 500px;
+    align-items: center;
+}
+
+
+
+.carousel-inner img{
+    width: 500px;
+    max-height: 500px;
+    height: auto;
+     border: 2px solid black;
+}
+
+.titleofertas{
+font-size: 50px; 
+text-align: center;
+color: rgb(63, 47, 2);
+margin: 30px;
+padding: 40px;
+}
+
+.ofertastext{
+font-size: 25px; 
+color: rgb(114, 89, 20);
+text-align: center; 
+margin: 30px;
+padding: 20px;
+}
+
+.carouselExampleIndicatorsburonton{
+background-color: black;
+height: 50px;
+}
+
+.padrefooter{
+display: flex;
+align-content: flex-end;
+}
+
+.iconosredes{
+height:50px;
+display: flex;
+flex-direction:row-reverse;
+justify-content: center;
+margin: 20px;}   
