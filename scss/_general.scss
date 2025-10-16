@@ -9,7 +9,7 @@ color: $colorletras;
 font-family: $fonts-h1;
 }   
 
-cards {
+.cards {
 background: $colorcards;
 @include fboxmodel(10px,20px,2px solid black);
 }

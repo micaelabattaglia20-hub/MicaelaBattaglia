@@ -17,3 +17,23 @@ $fonts-h1: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   border: $borde;
 }
 
+//redes sociales
+
+$colores: ( marron, beige, brown, black, white, yellow, green, blue, purple, pink);
+    
+ @each $color in $colores{
+    .#{$color}{
+        background-color:#{$color};
+    }
+}
+$map_redes:(
+    whatsapp: #33ec1a,
+    instagram:#bb0e0e,
+    mail: #000000
+);
+
+@each $red, $color in $map_redes {
+  .#{$red} {
+    color: $color;
+  }
+}

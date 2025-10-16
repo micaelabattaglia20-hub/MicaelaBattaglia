@@ -226,21 +226,21 @@ margin: 20px;
 
 
 .carousel-inner{
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-    background-color: rgb(146, 133, 111);
-    height: 500px;
-    align-items: center;
+display: flex;
+justify-content: space-around;
+margin: 0;
+background-color: rgb(146, 133, 111);
+height: 500px;
+align-items: center;
 }
 
 
 
 .carousel-inner img{
-    width: 500px;
-    max-height: 500px;
-    height: auto;
-     border: 2px solid black;
+ width: 500px;
+max-height: 500px;
+height: auto;
+border: 2px solid black;
 }
 
 .titleofertas{
