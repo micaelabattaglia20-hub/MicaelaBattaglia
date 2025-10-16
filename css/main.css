@@ -50,16 +50,20 @@
   color: #000000;
 }
 
-.navbar {
-  background: #e0d1b8;
-  display: flex;
-  justify-content: center;
+h1 {
+  color: rgb(63, 47, 2);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
   align-items: center;
 }
 
-.h1 {
-  color: rgb(63, 47, 2);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+.encabezado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #e0d1b8;
+  align-content: center;
 }
 
 .cards {
@@ -79,9 +83,241 @@ body {
   align-items: center;
 }
 
+.portada1 img {
+  width: 200px;
+}
+
 h2 {
   color: rgb(63, 47, 2);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.encabezado {
+  display: flex;
+  background: #e0d1b8;
+  align-content: center;
+}
+
+.indexgrid {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.indexgrid img {
+  width: 300px;
+  margin: 10px;
+}
+
+.tituloPrincipal {
+  color: rgb(63, 47, 2);
+  text-align: center;
+  font-size: 40px;
+  margin: 20px;
+}
+
+.card1 {
+  width: 500px;
+  border: 2px solid black;
+  text-align: center;
+  margin: 5px;
+  background: #e0d1b8;
+  background: linear-gradient(90deg, rgb(224, 209, 184) 0%, rgb(204, 140, 43) 50%, rgb(79, 48, 6) 100%);
+}
+
+.card2 {
+  width: 500px;
+  border: 2px solid black;
+  text-align: center;
+  margin: 10px;
+  background: #e0d1b8;
+  background: linear-gradient(90deg, rgb(224, 209, 184) 0%, rgb(204, 140, 43) 50%, rgb(79, 48, 6) 100%);
+}
+
+.card3 {
+  width: 500px;
+  border: 2px solid black;
+  text-align: center;
+  margin: 10px;
+  background: #e0d1b8;
+  background: linear-gradient(90deg, rgb(224, 209, 184) 0%, rgb(204, 140, 43) 50%, rgb(79, 48, 6) 100%);
+}
+
+.card4 {
+  width: 500px;
+  border: 2px solid black;
+  text-align: center;
+  margin: 10px;
+  background: #e0d1b8;
+  background: linear-gradient(90deg, rgb(224, 209, 184) 0%, rgb(204, 140, 43) 50%, rgb(79, 48, 6) 100%);
+}
+
+.cardsindexpadre {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardsindexpadre img {
+  width: 80%;
+  height: auto;
+}
+
+.cardindextitulo2 {
+  font-size: 40px;
+  color: rgb(63, 47, 2);
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.cardindex {
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px;
+}
+
+.cardindex1 {
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.cardindex2 {
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.cardindex3 {
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.cardindex4 {
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.padrefooter {
+  display: flex;
+  align-content: flex-end;
+}
+
+.iconosredes {
+  height: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 20px;
+}
+
+.navbar {
+  background: #e0d1b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.encabezado {
+  display: flex;
+  background: #e0d1b8;
+  align-content: center;
+}
+
+h3 {
+  font-size: 25px;
+  color: rgb(63, 47, 2);
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 2px;
+}
+
+.listaproductos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.listaproductos img {
+  width: 80%;
+  height: 400px;
+}
+
+.titleofertas {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(63, 47, 2);
+  margin: 10px;
+  padding: 10px;
+  border: 2px;
+}
+
+.ofertastext {
+  font-size: 25px;
+  color: rgb(114, 89, 20);
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
+}
+
+.carousel-inner {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  background-color: #e0d1b8;
+  height: 500px;
+  align-items: center;
+}
+
+.carousel-inner img {
+  width: 500px;
+  max-height: 500px;
+  height: auto;
+  border: 2px solid black;
+}
+
+.infotitle {
+  text-align: center;
+  margin: 20px;
+  font-size: 25px;
+}
+
+.listacompras2 {
+  list-style: inside;
+  text-align: left;
+  margin: 20px;
+}
+
+.listacategorias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  flex-wrap: wrap;
+  background-color: #e0d1b8;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+  list-style: none;
+  font-size: 30px;
+  color: rgb(63, 47, 2);
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

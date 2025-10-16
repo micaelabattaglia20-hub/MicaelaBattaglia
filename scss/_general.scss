@@ -1,17 +1,20 @@
-.navbar{
-background:$colorfondo;
-@include flexcenter;
-}
-
-
-.h1{ 
+h1{ 
 color: $colorletras;
 font-family: $fonts-h1;
+text-align: center;
+align-items: center;
 }   
+
+.encabezado{
+@include flexcenter;
+flex-direction: column;
+background: $colorfondo;
+align-content: center;
+}
 
 .cards {
 background: $colorcards;
-@include fboxmodel(10px,20px,2px solid black);
+@include boxmodel(10px,20px,2px solid black);
 }
 
 body{       
@@ -20,9 +23,146 @@ background: $colorfondo;
 
 .portada1{
  @include flexcenter;
+
+}
+
+.portada1 img{
+ width: 200px;
+
 }
 
 h2{
 color: $colorletras;        
 font-family: $fonts-h1;
 }
+
+.encabezado{
+display: flex;
+background: #e0d1b8;
+align-content: center;
+}
+
+.indexgrid{ 
+margin: 10px;
+padding: 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+
+.indexgrid  img{ 
+width: 300px;
+margin: 10px;
+}
+
+ 
+.tituloPrincipal{ 
+color: rgb(63, 47, 2); 
+text-align: center;
+font-size: 40px;
+margin: 20px;
+}
+
+
+.card1{
+width: 500px;
+border: 2px solid black;
+text-align: center;
+margin: 5px;
+background: #e0d1b8;
+background: linear-gradient(90deg,rgba(224, 209, 184, 1) 0%, rgba(204, 140, 43, 1) 50%, rgba(79, 48, 6, 1) 100%);
+}
+
+
+.card2{ 
+width: 500px; 
+border: 2px solid black;
+text-align: center;
+margin: 10px;
+background: #e0d1b8;
+background: linear-gradient(90deg,rgba(224, 209, 184, 1) 0%, rgba(204, 140, 43, 1) 50%, rgba(79, 48, 6, 1) 100%);
+}
+
+.card3{
+width: 500px; 
+border: 2px solid black;
+text-align: center;
+margin: 10px;
+background: #e0d1b8;
+background: linear-gradient(90deg,rgba(224, 209, 184, 1) 0%, rgba(204, 140, 43, 1) 50%, rgba(79, 48, 6, 1) 100%);
+}
+
+.card4{
+width: 500px; 
+border: 2px solid black;
+text-align: center;
+margin: 10px;
+background: #e0d1b8;
+background: linear-gradient(90deg,rgba(224, 209, 184, 1) 0%, rgba(204, 140, 43, 1) 50%, rgba(79, 48, 6, 1) 100%);
+}
+
+.cardsindexpadre{
+display: flex;
+flex-direction: row;
+flex-wrap:wrap;
+justify-content: center;
+}
+
+.cardsindexpadre img{
+   width: 80%;
+   height: auto;
+}
+
+.cardindextitulo2{
+font-size: 40px;
+color: rgb(63, 47, 2);
+text-align: center;
+margin: 20px;
+padding: 20px;
+}
+
+.cardindex{
+border: 2px solid black;    
+text-align: center;
+padding: 20px;}
+
+.cardindex1{
+border: 2px solid black;    
+text-align: center;
+padding: 20px;
+margin: 10px;
+}
+
+.cardindex2{
+border: 2px solid black;    
+text-align: center;
+padding: 20px;
+margin: 10px;
+}
+
+.cardindex3{
+border: 2px solid black;    
+text-align: center;
+padding: 20px;
+margin: 10px;
+}
+
+.cardindex4{
+border: 2px solid black;    
+text-align: center;
+padding: 20px;
+margin: 10px;
+}
+
+.padrefooter{
+display: flex;
+align-content: flex-end;
+}
+
+.iconosredes{
+height:50px;
+display: flex;
+flex-direction:row-reverse;
+justify-content: center;
+margin: 20px;}   

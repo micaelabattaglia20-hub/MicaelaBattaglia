@@ -11,7 +11,7 @@ $fonts-h1: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   align-items: center;
 }
 
-@mixin fboxmodel ($margen, $padding, $borde) {
+@mixin boxmodel ($margen, $padding, $borde) {
   margin: $margen;
   padding: $padding;
   border: $borde;

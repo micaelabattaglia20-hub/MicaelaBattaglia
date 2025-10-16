@@ -1,0 +1,33 @@
+.titleofertas{
+font-size: 50px; 
+text-align: center;
+color: $colorletras;
+@include boxmodel(10px,10px,2px);
+}
+
+.ofertastext{
+font-size: 25px; 
+color: rgb(114, 89, 20);
+text-align: center; 
+margin: 30px;
+padding: 20px;
+}
+
+.carousel-inner{
+display: flex;
+justify-content: space-around;
+margin: 0;
+background-color: $colorfondo;
+height: 500px;
+align-items: center;
+}
+
+
+
+.carousel-inner img{
+ width: 500px;
+max-height: 500px;
+height: auto;
+border: 2px solid black;
+}
+

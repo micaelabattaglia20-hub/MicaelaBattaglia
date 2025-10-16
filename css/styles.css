@@ -67,7 +67,6 @@ margin: 20px;
 .listaproductos{
 display: flex;
 flex-wrap: wrap;
-
 justify-content: center;
 }
 
@@ -209,9 +208,6 @@ padding: 20px;
 text-align: center;
 }
 
-
-
-
 .infotitle{ 
 text-align: center;
 margin: 20px;
@@ -275,9 +271,3 @@ display: flex;
 flex-direction:row-reverse;
 justify-content: center;
 margin: 20px;}   
-
-.mapas{
-display: flex;
-justify-content: center;
-margin: 20px;
-}

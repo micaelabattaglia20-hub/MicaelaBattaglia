@@ -1,0 +1,17 @@
+h3{
+font-size: 25px;
+color: $colorletras;
+text-align: center;
+@include boxmodel(10px,10px,2px);
+}
+
+
+.listaproductos{
+@include flexcenter;
+flex-wrap: wrap;
+}
+
+.listaproductos img{
+    width: 80%;
+    height: 400px;
+}
