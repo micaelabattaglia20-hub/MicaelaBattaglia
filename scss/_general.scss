@@ -1,0 +1,28 @@
+.navbar{
+display: flex;  
+justify-content: center;
+align-items: center;
+background:$colorfondo;
+}
+
+
+h1{ 
+font-size: 40px;
+font-family: $fonts-h1;
+color: $colorletras;
+text-align: center;
+margin: 30px;
+}   
+
+.cards {
+width: 500px;
+border: 2px solid black;
+text-align: center;
+margin: 5px;
+background: $colorcards;
+border-radius: 10px;
+}
+
+body{       
+background: $colorfondo;
+}
