@@ -3,7 +3,8 @@
 <head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>patitas</title>
+    <meta name="description" content="Información sobre nuestra marca, políticas, materiales y procesos de fabricación. Conocé por qué nuestros productos son de calidad.">
+    <title> Encontra toda la info que podes necesitar en el proceso de compras y donde encontrarnos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css">
      
@@ -11,9 +12,7 @@
 
 <body>  
   <header class="encabezado">   <!--encabezado--> 
-    <h1 class="tituloPrincipal">Patitas de Pupi</h1>
    
-
   <!--barra de navegacion-->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
@@ -44,7 +43,7 @@
          COMO COMPRAR?
       </H2>
 
-      <div>  <!--lista de pasos-->
+      <div class="listacompras2">  <!--lista de pasos-->
        <ul class="listacompras2">
         <li>Elegir el producto y talle</li>
         <li>Agregar al carrito</li>
@@ -54,13 +53,21 @@
         <li>Finaliza la compra  y LISTO</li>
       </ul>
       </div>
-     
+
+    <div class="politicasdecambio"> 
      <H3>POLITICAS DE CAMBIO</H3> <!--preguntas frecuentes-->
+     <div class="parrafoinfo">
       <P> Si, podes realizar el cambio enviando un mail a nuestra casilla  patitasdepupi@gmail.com  y detallando el motivo del cambio</P>
-    <div>
+      </div>
+    </div>
+    <div class="mapaslomasdezamora"> <!--mapa de lomas de zamora-->
       <H3>DONDE ESTAMOS?</H3>
-      <P>Nos encontramos en Lomas de Zamora, Buenos Aires, Argentina</P>
+      <div class="parrafoinfo">
+      <P> Nos encontramos en Lomas de Zamora, Buenos Aires, Argentina</P>
+      </div>
+      <div class="parrafoinfo">
       <P>Visitanos en nuestra tienda!</P>
+      </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52442.06216725138!2d-58.49778259254849!3d-34.7649402676521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd261abf8fb75%3A0xd3b4119f62723032!2sLomas%20de%20Zamora%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1760572505638!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     </main>
@@ -69,26 +76,25 @@
       <h2>Patitas de Pupi</h2>
       <p> 2025 Patitas. Todos los derechos reservados.</p>
 
-      <div class="iconosredes">
-        <img src="../assets/logotipo-de-instagram.png" alt="icono instagram" class="iconoredes">
-        <img src="../assets/whatsapp.png" alt="icono whatsapp" class="iconoredes">
-        <img src="../assets/email.png" alt="icono mail" class="iconoredes">
-     
+       <div class="iconosredes">
+        <img src="../assets/logotipo-de-instagramok.png" alt="icono instagram" class="iconoredes">
+        <img src="../assets/whatsappok.png" alt="icono whatsapp" class="iconoredes">
+        <img src="../assets/emailok.png" alt="icono mail" class="iconoredes">
+      </div>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+       </script> 
       </div class="mapas"> 
-     <script 
-   
-     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-     <script>
-  var mapa = L.map('mapa').setView([-34.7619, -58.4069], 13);
+    <script>
+      var mapa = L.map('mapa').setView([-34.7619, -58.4069], 13);
 
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© OpenStreetMap contributors'
-  }).addTo(mapa);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+     }).addTo(mapa);
 
-  L.marker([-34.7619, -58.4069]).addTo(mapa)
-    .bindPopup('Lomas de Zamora')
-    .openPopup();
-  </script>  
+      L.marker([-34.7619, -58.4069]).addTo(mapa)
+     .bindPopup('Lomas de Zamora')
+     .openPopup();
+    </script>  
   </div> 
 
     </footer>

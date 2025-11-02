@@ -6,6 +6,14 @@ font-size: 25px;
 
 .listacompras2{ 
 list-style: inside;
-text-align: left;
+text-align: center;
 margin: 20px;
+@include flexcenter;
+flex-direction: column;
 }
+
+.mapaslomasdezamora{
+@include flexcenter;
+flex-direction: column;
+margin: 20px;
+}   

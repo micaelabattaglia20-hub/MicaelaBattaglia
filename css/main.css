@@ -62,19 +62,19 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #e0d1b8;
+  background: white;
   align-content: center;
 }
 
 .cards {
-  background: #ce9b23;
+  background-color: #c0af93;
   margin: 10px;
   padding: 20px;
   border: 2px solid black;
 }
 
 body {
-  background: #e0d1b8;
+  background: white;
 }
 
 .portada1 {
@@ -94,7 +94,7 @@ h2 {
 
 .encabezado {
   display: flex;
-  background: #e0d1b8;
+  background: white;
   align-content: center;
 }
 
@@ -108,7 +108,8 @@ h2 {
 }
 
 .indexgrid img {
-  width: 300px;
+  width: 200px;
+  height: 200px;
   margin: 10px;
 }
 
@@ -123,9 +124,10 @@ h2 {
   width: 500px;
   border: 2px solid black;
   text-align: center;
-  margin: 5px;
-  background: #e0d1b8;
-  background: linear-gradient(90deg, rgb(224, 209, 184) 0%, rgb(204, 140, 43) 50%, rgb(79, 48, 6) 100%);
+  margin: 10px;
+  background-color: #c0af93;
+  padding: 10px;
+  box-shadow: 5px 2px 2px 2px rgba(140, 139, 135, 0.944);
 }
 
 .card2 {
@@ -133,26 +135,9 @@ h2 {
   border: 2px solid black;
   text-align: center;
   margin: 10px;
-  background: #e0d1b8;
-  background: linear-gradient(90deg, rgb(224, 209, 184) 0%, rgb(204, 140, 43) 50%, rgb(79, 48, 6) 100%);
-}
-
-.card3 {
-  width: 500px;
-  border: 2px solid black;
-  text-align: center;
-  margin: 10px;
-  background: #e0d1b8;
-  background: linear-gradient(90deg, rgb(224, 209, 184) 0%, rgb(204, 140, 43) 50%, rgb(79, 48, 6) 100%);
-}
-
-.card4 {
-  width: 500px;
-  border: 2px solid black;
-  text-align: center;
-  margin: 10px;
-  background: #e0d1b8;
-  background: linear-gradient(90deg, rgb(224, 209, 184) 0%, rgb(204, 140, 43) 50%, rgb(79, 48, 6) 100%);
+  background-color: #978e6a;
+  padding: 10px;
+  box-shadow: 5px 2px 2px 2px rgba(140, 139, 135, 0.944);
 }
 
 .cardsindexpadre {
@@ -179,6 +164,7 @@ h2 {
   border: 2px solid black;
   text-align: center;
   padding: 20px;
+  margin: 10px;
 }
 
 .cardindex1 {
@@ -212,18 +198,47 @@ h2 {
 .padrefooter {
   display: flex;
   align-content: flex-end;
+  justify-content: center;
 }
 
 .iconosredes {
   height: 50px;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: center;
+  justify-content: flex-start;
   margin: 20px;
 }
 
+.textofooter {
+  color: rgb(63, 47, 2);
+  font-size: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 12px 25px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(63, 47, 2);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 3px;
+}
+button:hover {
+  background: white;
+  color: black;
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+button:active {
+  transform: translateY(0) scale(1);
+  box-shadow: none;
+}
+
 .navbar {
-  background: #e0d1b8;
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -231,7 +246,7 @@ h2 {
 
 .encabezado {
   display: flex;
-  background: #e0d1b8;
+  background: white;
   align-content: center;
 }
 
@@ -249,6 +264,8 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .listaproductos img {
@@ -277,7 +294,7 @@ h3 {
   display: flex;
   justify-content: space-around;
   margin: 0;
-  background-color: #e0d1b8;
+  background-color: white;
   height: 500px;
   align-items: center;
 }
@@ -297,7 +314,19 @@ h3 {
 
 .listacompras2 {
   list-style: inside;
-  text-align: left;
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mapaslomasdezamora {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin: 20px;
 }
 
@@ -309,13 +338,31 @@ h3 {
   justify-content: space-evenly;
   margin: 0;
   padding: 0;
-  height: 400px;
+  height: 300px;
   flex-wrap: wrap;
-  background-color: #e0d1b8;
+  background-color: white;
   border-radius: 20px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
   list-style: none;
   font-size: 30px;
+  color: rgb(63, 47, 2);
+  text-align: center;
+}
+
+.productoscategorias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+  list-style: none;
+  font-size: 20px;
   color: rgb(63, 47, 2);
   text-align: center;
 }

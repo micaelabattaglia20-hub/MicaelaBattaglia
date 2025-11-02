@@ -13,7 +13,7 @@ align-content: center;
 }
 
 .cards {
-background: $colorcards;
+background-color: $colorfondocards;
 @include boxmodel(10px,20px,2px solid black);
 }
 
@@ -38,7 +38,7 @@ font-family: $fonts-h1;
 
 .encabezado{
 display: flex;
-background: #e0d1b8;
+background: $colorfondo;
 align-content: center;
 }
 
@@ -49,10 +49,12 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 gap: 20px;
+
 }
 
 .indexgrid  img{ 
-width: 300px;
+width: 200px;
+height: 200px;
 margin: 10px;
 }
 
@@ -69,37 +71,21 @@ margin: 20px;
 width: 500px;
 border: 2px solid black;
 text-align: center;
-margin: 5px;
-background: #e0d1b8;
-background: linear-gradient(90deg,rgba(224, 209, 184, 1) 0%, rgba(204, 140, 43, 1) 50%, rgba(79, 48, 6, 1) 100%);
+margin: 10px;
+background-color: $colorfondocards;
+padding: 10px;
+box-shadow: 5px 2px 2px 2px rgba(140, 139, 135, 0.944);
 }
 
 
 .card2{ 
-width: 500px; 
+width: 500px;
 border: 2px solid black;
 text-align: center;
 margin: 10px;
-background: #e0d1b8;
-background: linear-gradient(90deg,rgba(224, 209, 184, 1) 0%, rgba(204, 140, 43, 1) 50%, rgba(79, 48, 6, 1) 100%);
-}
-
-.card3{
-width: 500px; 
-border: 2px solid black;
-text-align: center;
-margin: 10px;
-background: #e0d1b8;
-background: linear-gradient(90deg,rgba(224, 209, 184, 1) 0%, rgba(204, 140, 43, 1) 50%, rgba(79, 48, 6, 1) 100%);
-}
-
-.card4{
-width: 500px; 
-border: 2px solid black;
-text-align: center;
-margin: 10px;
-background: #e0d1b8;
-background: linear-gradient(90deg,rgba(224, 209, 184, 1) 0%, rgba(204, 140, 43, 1) 50%, rgba(79, 48, 6, 1) 100%);
+background-color: $colorfondocard2;
+padding: 10px;
+box-shadow: 5px 2px 2px 2px rgba(140, 139, 135, 0.944);
 }
 
 .cardsindexpadre{
@@ -125,13 +111,17 @@ padding: 20px;
 .cardindex{
 border: 2px solid black;    
 text-align: center;
-padding: 20px;}
+padding: 20px;
+margin: 10px;
+
+}
 
 .cardindex1{
 border: 2px solid black;    
 text-align: center;
 padding: 20px;
 margin: 10px;
+$colorfondocards: #b9a684 ;
 }
 
 .cardindex2{
@@ -155,14 +145,48 @@ padding: 20px;
 margin: 10px;
 }
 
-.padrefooter{
-display: flex;
-align-content: flex-end;
+
+.padrefooter {
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
+  }
+
+.iconosredes {
+  height: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  margin: 20px;
 }
 
-.iconosredes{
-height:50px;
-display: flex;
-flex-direction:row-reverse;
-justify-content: center;
-margin: 20px;}   
+.textofooter {
+  color: $colorletras;
+  font-size: 20px;
+  text-align :center;
+}
+
+
+
+button {
+  padding: 12px 25px;
+  border-radius: 8px;
+  border: none;
+  background: $colorletras;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .3s ease;
+  margin: 3px ;
+  &:hover {
+    background: $colorfondo;
+    color: black; 
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  }
+
+  &:active {
+    transform: translateY(0) scale(1);
+    box-shadow: none;
+  }
+}

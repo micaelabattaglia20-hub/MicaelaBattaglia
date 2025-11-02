@@ -1,16 +1,31 @@
 .listacategorias{
 @include flexcenter;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin: 0;
-  padding: 0;
-  height: 400px;
-  flex-wrap: wrap;
-  background-color: $colorfondo;
-  border-radius: 20px;
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+ flex-direction: row;
+ justify-content: space-evenly;
+ margin: 0;
+ padding: 0;
+ height: 300px;
+ flex-wrap: wrap;
+ background-color: $colorfondo;
+ border-radius: 20px;
+ box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
  list-style: none;
  font-size: 30px;
  color: $colorletras;
  text-align: center;}
 
+.productoscategorias{
+@include flexcenter;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    flex-wrap: wrap;
+    background-color: $colorfondo;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+    list-style: none;
+    font-size: 20px;
+    color: $colorletras;
+    text-align: center;
+}

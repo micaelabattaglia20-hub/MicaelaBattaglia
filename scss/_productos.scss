@@ -9,6 +9,8 @@ text-align: center;
 .listaproductos{
 @include flexcenter;
 flex-wrap: wrap;
+background-color: $colorfondo;
+border-radius: 20px;
 }
 
 .listaproductos img{
